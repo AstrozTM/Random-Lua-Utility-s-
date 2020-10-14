@@ -7,7 +7,7 @@
 # Variable Scanner
 This can be used as shown bellow.
 ```lua
-  local Code = [[
+local Code = [[
 local A = 'Hello'
 print(A)
 ]]
