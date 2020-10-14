@@ -15,7 +15,7 @@ print(A)
 local T = Get_Vars(Code)
 local BuiltScript = Code
 for I,v in pairs(T) do
-   local new = string.gsub(BuiltScript, T[I].OriginalVar, 'e')
+   local new = string.gsub(BuiltScript, T[I].OriginalVar, [['e']])
    BuiltScript = new
 end
 ```
