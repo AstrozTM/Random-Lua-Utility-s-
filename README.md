@@ -22,7 +22,7 @@ end
 
 # Obfuscation Parser
 This can be used as bellow.
-```lua
+```js
 const Parser = require("./Parser.js");
 const fs = require('fs')
 
