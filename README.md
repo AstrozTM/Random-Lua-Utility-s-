@@ -34,5 +34,5 @@ let ConstructedVariable = Args[0]
 let DetectedObfuscator = Args[1]
 let Version = Parser.Version
 
-console.log(`${ConstructedVariable} is the vulnerability, and the obfuscator detect is ${DetectedObfuscator}. Obtained this info with ObfuscationParser ${Version}`)
+console.log(`${ConstructedVariable} is the vulnerability, and the obfuscator detected is ${DetectedObfuscator}. Obtained this info with ObfuscationParser ${Version}`)
 ```
