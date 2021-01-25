@@ -27,12 +27,12 @@ const Parser = require("./Parser.js");
 const fs = require('fs')
 
 // Code \\
-let Code = fs.readFileSync("./PSU.lua", { encoding: "utf-8" }).toString() // Using PSU for an example (premium version is not possible to do this with good obfuscator tho discord.gg/psu
+let Code = fs.readFileSync("./PSU.lua", { encoding: "utf-8" }).toString() // Premium version has something to combat this with discord.gg/psu
 
 let Args = Parser.Parse(Code)
 let ConstructedVariable = Args[0]
 let DetectedObfuscator = Args[1]
 let Version = Parser.Version
 
-console.log(`${ConstructedVariable} is the vulnerability, and the obfuscator detected is ${DetectedObfuscator}. Obtained this info with ObfuscationParser ${Version}`)
+console.log(`${ConstructedVariable} is the eq, and the obfuscator detected is ${DetectedObfuscator}. Obtained this info with ObfuscationParser ${Version}`)
 ```
