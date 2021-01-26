@@ -9,7 +9,7 @@ function PSU_Parsing(Code) {
   FirstIndex = Code.indexOf("break;", FirstIndex + 1);
   FirstIndex = Code.indexOf("break;", FirstIndex + 1);
   FirstIndex = Code.indexOf("break;", FirstIndex + 1);
-  // Parsing till we find where the variable contaning shit is at \\
+  // Parsing till we find where the variable contaning eq hook vul \\
   let FoundIndex;
   for (let i = 1; i < 100; i++) {
     if (Code[FirstIndex - i] == "=" && Code[FirstIndex - (i - 1)] != "d") {
